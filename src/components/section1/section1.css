@@ -1,0 +1,62 @@
+.section1{
+    width: 100%;
+    height: 100vh;
+    padding: 0px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.aboutUs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutUs h2{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.aboutUs p{
+    color: rgb(250, 250, 250, 0.9);
+    letter-spacing: .5px;
+    font-size: 18px;
+    max-width: 560px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+  
+.ui-alt span{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0px 15px;
+}
+
+.ui-alt:hover{
+    scale: 1.1;
+}
+
+.aboutImg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.blackImg{
+    width: 100%;
+    height: 500px;
+    background: rgba( 17, 34, 58, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );    border-radius: 15px;
+    background-image: url(../../assets/about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
