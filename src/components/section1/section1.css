@@ -60,3 +60,45 @@
     background-position: center;
 }
 
+@media screen and (max-width: 1000px) {
+    .section1{
+        flex-wrap: wrap;
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .aboutUs{
+        width: 100%;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .button{
+        padding-bottom: 20px;
+    }
+
+    .aboutUs p{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .aboutImg{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .section1{
+        padding: 0px 30px;
+        padding-bottom: 40px;
+    }
+    
+    .button{
+        padding-bottom: 50px;
+    }
+
+    .blackImg{
+        height: 400px;
+        background-size: contain;
+    }    
+}

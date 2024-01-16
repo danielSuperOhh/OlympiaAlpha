@@ -51,3 +51,36 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+@media screen and (max-width: 1000px) {
+    .section3{
+        flex-wrap: wrap;
+    }
+
+    .whatOffer{
+        width: 100%;
+        align-items: center;
+    }
+
+    .offer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .whatOffer{
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .section3{
+        height: fit-content;
+        padding: 40px 30px;
+    }    
+
+    .offerImg{
+        height: 400px;
+        background-size: contain;
+    }
+}

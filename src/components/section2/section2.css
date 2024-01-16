@@ -48,3 +48,36 @@
 .upText{
     padding-bottom: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+    .section2{
+        flex-wrap: wrap-reverse;
+    }
+
+    .moreInfoImg{
+        width: 100%;
+    }
+
+    .moreInfo{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .section2{
+        padding: 40px 30px;
+        height: fit-content;
+    }
+
+    .moreInfo{
+        padding-left: 0px;
+        padding-bottom: 45px;
+    }
+
+    .infoImg{
+        height: 400px;
+        background-size: contain;
+    }    
+}

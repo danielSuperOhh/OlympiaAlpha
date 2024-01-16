@@ -25,6 +25,7 @@
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 
 .q1{
@@ -44,3 +45,20 @@
     font-weight: 200;
 }
 
+@media screen and (max-width: 900px) {
+    .faqs{
+        height: fit-content;
+    }
+
+    .faqQuestions {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .faqs{
+        height: fit-content;
+        padding: 40px 30px;
+    }
+    
+}

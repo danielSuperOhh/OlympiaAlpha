@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    height: 200px;
+    height: fit-content;
     padding: 30px 60px;
     overflow-y: hidden;
     border-top: 1px solid rgb(128, 128, 128, 0.2);
@@ -11,6 +11,7 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1200px;
+    padding-bottom: 30px;
 }
 
 .left-section {
@@ -55,16 +56,39 @@ h2, h3 {
     text-decoration: underline;
 }
 
+.develop{
+    width: 100%;
+    border-top: 1px solid rgb(128, 128, 128, 0.2);
+    text-align: center;
+}
+
+.develop p{
+    color: rgb(250, 250, 250, 0.9);
+    font-size: 14px;
+    margin-top: 17px;
+}
+
+
 @media screen and (max-width: 768px) {
+    footer{
+        height: fit-content;
+    }
+
     .footer-container {
         flex-direction: column;
-        align-items: center;
     }
 
     .left-section, .right-section {
         max-width: 100%;
         flex-basis: 100%;
-        text-align: center;
         margin-bottom: 20px;
     }
+}
+
+@media screen and (max-width: 550px) {
+    footer{
+        height: fit-content;
+        padding: 40px 30px;
+    }
+    
 }

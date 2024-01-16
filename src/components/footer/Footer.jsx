@@ -18,6 +18,9 @@ const Footer = () => {
           <p>Phone: +123 456 7890</p>
         </div>
       </div>
+      <div className="develop">
+        <p>Developed by iPlayDaniel</p>
+      </div>
     </footer>
   );
 };
