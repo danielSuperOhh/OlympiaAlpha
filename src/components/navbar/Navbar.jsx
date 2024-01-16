@@ -1,4 +1,6 @@
 import './navbar.css'
+import oaLogo from '../../assets/oaLogo.png'
+
 
 const Navbar = () => {
     const handleContactUsClick = () => {
@@ -7,7 +9,7 @@ const Navbar = () => {
   return (
     <nav>
         <div className="logo">
-            <h3>Olympia Alpha</h3>
+          <img src={oaLogo} alt="logo" />
         </div>
         <div className="contactUs" onClick={handleContactUsClick}>
             <p>Contact Us</p>
