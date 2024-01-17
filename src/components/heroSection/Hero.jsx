@@ -34,7 +34,7 @@ const Hero = () => {
                     </svg>
                 </a>
                 
-                <a href="#" class="social-button facebook">
+                <a href="https://discord.gg/zbYjs73r" class="social-button facebook">
                 <svg
                 viewBox="0 0 640 512"
                 fill="white"

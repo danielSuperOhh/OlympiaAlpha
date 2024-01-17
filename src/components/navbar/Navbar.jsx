@@ -12,7 +12,7 @@ const Navbar = () => {
           <img src={oaLogo} alt="logo" />
         </div>
         <div className="contactUs" onClick={handleContactUsClick}>
-            <p>Contact Us</p>
+            <p><a href="https://x.com/olympiaalpha_?s=21&t=uT7yTYU0INSw-EeL7e-xNQ">Contact Us</a></p>
         </div>
     </nav>
   )
