@@ -18,7 +18,7 @@ const Hero = () => {
             </div>
         </div>
 
-        <div className="medias" data-aos="fade-up" data-aos-duration="3000">
+        <div className="medias" data-aos="zoom-in" data-aos-duration="3000">
             <div class="social-buttons">
                 <a href="https://x.com/olympiaalpha_?s=21&t=uT7yTYU0INSw-EeL7e-xNQ" class="social-button twitter">
                     <svg
