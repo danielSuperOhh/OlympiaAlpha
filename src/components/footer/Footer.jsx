@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <div className="right-section">
           <h3>Get in Touch</h3>
-          <p>Email: contact@yourcompany.com</p>
+          <p>Email: olympiaalpha14gmail.com</p>
         </div>
       </div>
       <div className="develop">

@@ -44,7 +44,7 @@ const Faqs = () => {
                 <p className='quest'>Is there an Olympia Alpha NFT collection Pass? </p>
 
                 <p className='ans'>
-                    As of now there's no Alpha pass trading on Openseas or any marketplace, but
+                    As of now there's no Alpha pass trading on Opensea or any marketplace, but
                     it's something we're considering in the near future.
                 </p>
             </div>
