@@ -2,6 +2,18 @@ import './footer.css'
 import oaLogo from '../../assets/oaLogo.png'
 
 const Footer = () => {
+  const handleContactUsClick = () => {
+    // Replace 'Subject' and 'Body' with the desired subject and body of the email
+  const subject = encodeURIComponent('Inquiry');
+  const body = encodeURIComponent('Good day,\n\nI would like to inquire about...');
+
+  // Construct the mailto link with the specified email, subject, and body
+  const mailtoLink = `mailto:olympiaalpha14gmail.com?subject=${subject}&body=${body}`;
+
+  // Open the user's default email client
+  window.location.href = mailtoLink;
+  };
+
   return (
     <footer>
       <div className="footer-container">
@@ -15,7 +27,7 @@ const Footer = () => {
         </div>
         <div className="right-section">
           <h3>Get in Touch</h3>
-          <p>Email: olympiaalpha14gmail.com</p>
+          <p onClick={handleContactUsClick}>Email: olympiaalpha14gmail.com</p>
         </div>
       </div>
       <div className="develop">
