@@ -3,14 +3,11 @@ import oaLogo from '../../assets/oaLogo.png'
 
 const Footer = () => {
   const handleContactUsClick = () => {
-    // Replace 'Subject' and 'Body' with the desired subject and body of the email
   const subject = encodeURIComponent('Inquiry');
   const body = encodeURIComponent('Good day,\n\nI would like to inquire about...');
 
-  // Construct the mailto link with the specified email, subject, and body
   const mailtoLink = `mailto:olympiaalpha14gmail.com?subject=${subject}&body=${body}`;
 
-  // Open the user's default email client
   window.location.href = mailtoLink;
   };
 
@@ -22,7 +19,7 @@ const Footer = () => {
 
           <div className="social-links">
             <a href="https://x.com/olympiaalpha_?s=21&t=uT7yTYU0INSw-EeL7e-xNQ" target="_blank" rel="noopener noreferrer">X</a>
-            <a href="https://discord.gg/zbYjs73r" target="_blank" rel="noopener noreferrer">Discord</a>
+            <a href="https://discord.gg/nW3f3XNBnu" target="_blank" rel="noopener noreferrer">Discord</a>
           </div>
         </div>
         <div className="right-section">

@@ -42,8 +42,12 @@ nav{
 }
 
 @media screen and (max-width: 550px) {
+  nav{
+    padding: 0px 20px;
+  }
+
   .logo img{
-    width: 160px;
-    height: 44px;
+    width: 120px;
+    height: 30px;
   }
-  }
+}
