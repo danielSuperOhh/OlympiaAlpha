@@ -15,7 +15,7 @@ const Section1 = () => {
             <div className="button" data-aos="fade-up">
                 <button class="ui-btn ui-alt">
                     <span>
-                        JOIN US 
+                        <a href="https://discord.gg/nW3f3XNBnu">JOIN US</a> 
                     </span>
                 </button>
             </div>

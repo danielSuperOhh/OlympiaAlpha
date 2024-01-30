@@ -37,6 +37,11 @@
     padding: 0px 15px;
 }
 
+.ui-alt span a{
+    text-decoration: none;
+    color: #fafafae6;
+}
+
 .ui-alt:hover{
     scale: 1.1;
 }
